@@ -1,52 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="778075b2-5efa-4bd1-9e97-fc6660eaa328" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/weather_web_app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/cache.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/doctrine_migrations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/twig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/annotations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/dev/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/MainController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/PostController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/ScrapingDataController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Post.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Migrations/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/PostRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/simple_html_dom.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/home/custom.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/post/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/scraping_data/index.html.twig" afterDir="false" />
+    <list default="true" id="778075b2-5efa-4bd1-9e97-fc6660eaa328" name="Default Changelist" comment="update 9.05.2020">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ScrapingDataController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ScrapingDataController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simple_html_dom.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home/custom.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/custom.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,6 +117,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -153,17 +136,61 @@
       <workItem from="1587462455924" duration="7377000" />
       <workItem from="1588694761467" duration="1308000" />
       <workItem from="1588953180814" duration="6662000" />
-      <workItem from="1589025960142" duration="673000" />
+      <workItem from="1589025960142" duration="7994000" />
+      <workItem from="1589124268680" duration="5838000" />
     </task>
+    <task id="LOCAL-00001" summary="update 9.05.2020">
+      <created>1589026817686</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589026817686</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update 9.05.2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 9.05.2020" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="611" y="420" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1589124578183">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="611" y="420" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1589124578183" />
     <state x="773" y="319" width="424" height="484" key="FileChooserDialogImpl" timestamp="1587462452844">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="773" y="319" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1587462452844" />
+    <state x="819" y="486" key="Github.ShareDialog" timestamp="1589026569494">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="819" y="486" key="Github.ShareDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1589026569494" />
+    <state x="670" y="273" width="637" height="626" key="Github.UntrackedFilesDialog" timestamp="1589026580590">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="670" y="273" width="637" height="626" key="Github.UntrackedFilesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1589026580590" />
+    <state x="472" y="381" width="801" height="561" key="NewPhpClassDialog" timestamp="1589124841673">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="472" y="381" width="801" height="561" key="NewPhpClassDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1589124841673" />
+    <state x="583" y="308" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1589026819393">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="583" y="308" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1589026819393" />
   </component>
 </project>

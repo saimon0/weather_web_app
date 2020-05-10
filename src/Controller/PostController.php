@@ -5,14 +5,18 @@ namespace App\Controller;
 use App\Entity\Post;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
 
+/**
+ * @Route("/post", name="post.")
+ */
 
 class PostController extends AbstractController
 {
     /**
-     * @Route("/post", name="post")
+     * @Route("/", name="index")
      */
     public function index()
     {
@@ -21,7 +25,14 @@ class PostController extends AbstractController
         ]);
     }
 
-    public function create(Request $request)
+
+    /**
+     * @Route("/create", name="create")
+     * @param Request $request
+     * @return Response
+     */
+
+   public function create(Request $request)
     {
         $weatherInfo = new Post();
 
@@ -40,6 +51,14 @@ class PostController extends AbstractController
         $location = 'Poznan';
         $weatherInfo->setLocation($location);
 
+        $temperature = '23';
+        $weatherInfo->setTemperature($temperature);
 
+        $entityManager = $this->getDoctrine()->getManager();
+
+        $entityManager->persist($weatherInfo);
+        $entityManager->flush();
+
+        return new Response('WeatherInfo was sent to database');
     }
 }
